@@ -374,6 +374,12 @@ namespace CSharpTcpDemo.com.dobot.api
                 iStartIndex += 1;
             }
 
+            feedbackData.VibrationDisZ = buffer[iStartIndex];
+            iStartIndex += 8;
+            
+            feedbackData.CurrentCommandID = buffer[iStartIndex];
+            iStartIndex += 8;
+
             for (int i = 0; i < feedbackData.MActual.Length; ++i)
             {
                 feedbackData.MActual[i] = BitConverter.ToDouble(buffer, iStartIndex);
