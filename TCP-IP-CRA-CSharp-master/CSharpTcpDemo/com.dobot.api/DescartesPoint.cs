@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace CSharthiscpDemo.com.dobot.api
+namespace CSharpTcpDemo.com.dobot.api
 {
-    class DescartesPoint
+    public class DescartesPoint
     {
         /// <summary>
         /// X 轴位置，单位：毫米

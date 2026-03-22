@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharpTcpDemo.com.dobot.api
 {
-    class JointPoint
+    public class JointPoint
     {
         /// <summary>
         /// J1 轴位置，单位：度
